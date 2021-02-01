@@ -1,0 +1,81 @@
+body {
+    background-color: #b3e7ff;
+    align-items: center;
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLmJlc3QubGl2ZS53YWxscGFwZXIuYmFja2dyb3VuZHMuaGQudGhlbWUuZ2lybHkud2FsbHBhcGVycy5pbWFnZXMubHdwLmdhbGF4eS5zcGFjZS5zdGFycy5saXZlLndhbGxwYXBlcl9zY3JlZW5fNF8xNTUwNzY4ODkwXzAwOA/screen-4.jpg?fakeurl=1&type=.jpg);
+    
+}
+
+#topo {
+    display: flex;
+    justify-content: space-around;
+    color: white
+    
+    
+}
+
+#logoM {
+    width: 10%;
+}
+
+#logo {
+    width: 150px;
+}
+
+#descrição {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font: arial;
+}
+
+h1 {
+    font-size: 100px;
+    font-style: arial;
+
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font: arial;
+    font-size: 40px;
+    color: white
+}
+
+#pic1 {
+    font-size: 15px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+    color: white
+}
+
+#pic2 {
+    font: arial;
+    font-size: 15px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+    color: white
+}
+
+#dateContainer{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+
+}
+
+

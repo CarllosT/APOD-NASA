@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="imgs/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Picture of the Day!</title>
+</head>
+<body>
+    <main>
+        <div id="topo">
+            <div id="logoM"> <img id="logo" src="imgs/nasa.png"> </div> 
+            <div id="descrição">
+                <h1>Astronomy Picture of the Day!</h1>
+                <p>Write a date beginning on June 16, 1995 and discover the image from that date!</p>
+            </div>
+    </div>
+
+    <h2 id="pic"> Discover the Cosmos!</h2>
+    <p id="pic1">Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</p>
+    <p id="pic2"> Try it, choose a date beginning on June 16, 1995.</p>
+
+
+    <div id="dateContainer"> 
+        <input type="date" id="date">
+        <button id="btnSearch">Generate.</button>
+        
+    </div>
+
+    <main id="main"></main>        
+      
+        <footer>
+            <button id="btnback">Previous</button>
+            <button id="btnNext">Next</button>
+
+        </footer>
+    </main>
+    
+
+    <script src="js/Model/model.js"></script>
+    <script src="js/view/view.js"></script>
+    <script src="js/controler/controler.js"></script>
+</body>
+</html>
